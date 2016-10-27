@@ -6,6 +6,8 @@ import cv2
  
 # Loading the image
 img = cv2.imread("test.jpg")
+
+# Resizing the image to a specific width (imutils needed)
 img = imutils.resize(img, width=300)
 
 # Making a copy of the image
