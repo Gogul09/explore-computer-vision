@@ -1,0 +1,33 @@
+# Simple Perceptron using MNIST dataset
+# Perceptron is used as a binary classifier and it is a linear model
+
+# Organizing imports
+from __future__ import print_function
+from sklearn.cross_validation import train_test_split
+from sklearn.metrics import classification_report
+from sklearn.linear_model import Perceptron
+from sklearn import datasets
+
+# Loading the MNIST dataset from disk
+print("[STATUS] Loading MNIST dataset...")
+mnistDataset = datasets.load_digits()
+
+# Training and testing data split
+# test_size = 0.25 denotes --> training:75% and testing:25%
+print("[STATUS] Splitting MNIST dataset...")
+(trainData, testData, trainLabels, testLabels) = train_test_split(mnistDataset.data,																  mnistDataset.target,														  test_size = 0.25,									  random_state = 42)
+
+# Training the perceptron
+# n_iter = 10 means the training feature vectors will be passed through
+# the Perceptron a total of 30 times
+# eta0 = 1.0 means the learning rate will be n=1.0
+print("[STATUS] Training data...")
+model = Perceptron(n_iter=30, eta0=1.0, random_state = 84)
+model.fit(trainData, trainLabels)
+
+# Evaluate the perceptron
+print("[STATUS] Making predictions...")
+predictions = model.predict(testData)
+
+# Display the result
+print(classification_report(predictions, testLabels, target_names = mnistDataset.target_names))
