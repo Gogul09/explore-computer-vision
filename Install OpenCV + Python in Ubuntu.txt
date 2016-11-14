@@ -20,6 +20,8 @@ sudo pip install scikit-learn
 sudo apt-get install python-skimage
 sudo pip install mahotas imutils Pillow commentjson
 
+sudo apt-get install git
+
 cd ~ 
 git clone https://github.com/Itseez/opencv.git 
 cd opencv 
