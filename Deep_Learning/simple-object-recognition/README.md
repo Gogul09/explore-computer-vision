@@ -14,4 +14,4 @@ This project demonstrates -
 
 ### Accuracy = 100% 
 
-Accuracy is maximum because it is just a smaller dataset. This project aims to provide a blueprint to start more complex models using Keras and CNN.
+Accuracy is maximum because it is just a smaller dataset. This project aims to provide a blueprint to start more complex models using dataset that is residing in local disk. Keras provides methods to fetch standard datasets like MNIST, CIFAR-10 etc. But I couldn't find anything that tells how to prepare a dataset ready for CNN from disk. So, I planned to implement it myself. Feel free to use this code!
