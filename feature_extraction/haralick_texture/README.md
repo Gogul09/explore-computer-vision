@@ -4,15 +4,15 @@ A simple texture recognition algorithm using Haralick Textures that classifies B
 You can change the dataset with your own images.
 
 ### ----Training Images----
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/Training%20Data.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/Training%20Data.jpg)
 
 ### ----Testing Images----
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/Testing%20Data.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/Testing%20Data.jpg)
 
 ### ----Result----
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/test_image_1.jpg)
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/test_image_2.jpg)
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/test_image_3.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/test_image_1.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/test_image_2.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/test_image_3.jpg)
 
 ### ----Command Line Output----
-![alt tag](https://github.com/Gogul09/Exploring-CV-DL-ML/blob/master/Feature_Extraction/texture_recognition/display/Output.jpg)
+![alt tag](https://github.com/Gogul09/explore-computer-vision/blob/master/feature_extraction/haralick_texture/display/Output.jpg)
